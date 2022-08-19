@@ -8,7 +8,7 @@ export class Home extends Component {
     return (
       <div className='home'>
         <Navbar />
-        Home
+        Home page
       </div>
     )
   }
