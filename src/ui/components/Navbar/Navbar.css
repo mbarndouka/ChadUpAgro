@@ -1,8 +1,20 @@
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    border-bottom: 1px solid gray;
-    padding: 0 30px;
+@media only screen and (max-width: 600px) {
+    .Navbar{
+        display: flex;
+        width: 90%;
+        height: 42px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        position: fixed;
+        margin-top: 10px;
+        padding: 0 8px 0 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        height: 31px;
+        width: 31px;
+        border-radius: 50px;
+    }
 }
