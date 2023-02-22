@@ -1,6 +1,27 @@
+.home{
+    display: flex;
+    /* align-items: center; */
+}
+
+.home-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.home1{
+    /* background-image: url(/src/assets/background.png); */
+    background-repeat: no-repeat;
+    background-size: 300%;
+    height: 650px;
+    width: 100%;
+}
 @media only screen and (max-width: 600px) {
     .home{
-        display: flexbox;
+        display: none;
     }
 
     .home1{

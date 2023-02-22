@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
-import './Contactus.css'
+import React from 'react'
 
-export class Contactus extends Component {
-  render() {
-    return (
-      <div>Contactus</div>
-    )
-  }
+const Contactus = () => {
+  return (
+    <div>Contactus</div>
+  )
 }
 
 export default Contactus
