@@ -1,8 +1,8 @@
-
+import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Notfind from './pages/Notfind/Notfind'
+import Notfind from './pages/Notfind/Notfind';
 // import Loading from './pages/Loading/Loading'
 
 function App() {
@@ -10,8 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element ={< Home />}/>
-        <Route path='/aboutus' element ={< Home />}/>
-        <Route path='*' element = {<Notfind/>}/>
+        <Route path='*' element = {<Notfind />}/>
       </Routes>
     </BrowserRouter>
   );
